@@ -3,15 +3,6 @@ name: Django-app workflow
 
 on: [push]
 
-<<<<<<< HEAD
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-    
-=======
->>>>>>> origin/main
 jobs:
   tests:
     # «Раннер» — создание изолированного окружения с последней версией Ubuntu 
